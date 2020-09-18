@@ -1,0 +1,21 @@
+Package: diffcomp
+Type: Package
+Title: Differential Compartments in R
+Version: 0.1.0
+Date: 2020-08-25
+Authors@R: c(
+    person(given = "Eric S.", family = "Davis",
+    email = "esdavis@live.unc.edu", role = c("aut", "cre")),
+    person(given = "Douglas H.", family = "Phanstiel",
+    email = "douglas_phanstiel@med.unc.edu", role = c("aut")))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Framework for identifying statistically significant changes
+    in Hi-C compartments. Uses a false-discovery rate approach to set an
+    appropriate cutoff for compartment changes. Produces useful
+    visualizations to assess results.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
